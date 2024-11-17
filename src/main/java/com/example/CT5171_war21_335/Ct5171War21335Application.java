@@ -10,10 +10,11 @@ public class Ct5171War21335Application {
 
     public static void main(String[] args) {
 //        SpringApplication.run(Ct5171War21335Application.class, args);
-        SpringApplication app = new SpringApplication(Ct5171War21335Application.class);
-        app.setDefaultProperties(Collections
-                .singletonMap("server.port", "8081"));
-        app.run(args);
+        System.out.println("Hello, war!");
+//        SpringApplication app = new SpringApplication(Ct5171War21335Application.class);
+//        app.setDefaultProperties(Collections
+//                .singletonMap("server.port", "8081"));
+//        app.run(args);
     }
 
 }
